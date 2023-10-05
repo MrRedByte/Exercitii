@@ -81,6 +81,18 @@ int main(){
 	//https://www.geeksforgeeks.org/print-concentric-rectangular-pattern-in-a-2d-matrix/
     int s = 2 * n - 1;// number of rows and columns to be printed
 
+    /*
+	 *     ________
+	 *     |\    /|
+	 *     | \  / |
+	 *     |  \/  |
+	 *     |  /\  |
+	 *     ________
+	 *     | /  \ |
+	 *     |/    \|
+	 *     ________
+	 */
+
     for (int i = 0; i < (s / 2) + 1; i++) {// Upper Half
         int m = n;
         for (int j = 0; j < i; j++) {// Decreasing part
